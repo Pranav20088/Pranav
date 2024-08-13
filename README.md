@@ -1,3 +1,4 @@
+
 CODE FOR SIMPLE INTREST
 P=int(input("Pls enter P value:"))
 R=int(input("Pls enter R value:"))
