@@ -23,3 +23,7 @@ c=int(input("Enter the marks scored in Chemistry:"))
 p=int(input("Enter the marks scored in Physisc:"))
 AVG=(e+cs+m+c+p)/5
 print(AVG)
+if AVG < 25:
+    print("Student failed")
+else:
+   print("student passed")
