@@ -27,3 +27,19 @@ if AVG < 25:
     print("Student failed")
 else:
    print("student passed")
+
+CODE FOR AREA OF n NO.OF CIRCLES
+noOfcircle=int(input("Please enter the number of Circles:"))
+start=1
+radiusofcircle=[]
+while start<=noOfcircle:
+    radius=int(input("Please enter the radius of the circle:"))
+    radiusofcircle.append (radius)
+    pi=22/7
+    area=pi*radius**2
+    print("Area of the circle is",start,"is:",area)
+    start +=1
+start=1
+for x in radiusofcircle:
+    print("Radius of circle",start,"is",x)
+    start +=1
